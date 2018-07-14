@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Node + React Starter</title>
+    <link rel='stylesheet' href='./loadTowers.css' />
+  </head>
+
+  <body class="page">
+    <div id='xroot'/>
+
+    <div class="canvas" id="canvas">
+      <h1 class="canvas-header">Success: Your tower has been saved!</h1>
+      <canvas class="picture" id="myCanvas" width="150" height="150"
+      style="border:1px solid #d3d3d3;"></canvas> <br />
+      <a href="loadTowers.html" class="button city-btn" style="margin-left: 15%; width: 30%" >Upload Another Tower</a>
+      <a href="grid.html" class="button city-btn" style="width: 30%" >Go To Your City</a>
+    </div>
+    <div id="upload" class="uploadForm">
+      <form class="form" action="/api/imageUpload" enctype="multipart/form-data" method="POST">
+        <h5 style="font-size:30px; text-align: center; margin-top: 20px; margin-bottom: 20px"> Upload Your Tower Image </h5>
+        <p style="font-size:25px; text-align: center; margin-top: 10px;"><input class="nameInput" type="text" name="text" placeholder="File Name"></input></p>
+        <label for="file">Choose a file</label>
+        <input class="fileChoice upload" type="file" size="100" name="photo"/>
+        <p><button class="button city-btn" type="submit">Submit Image</button></p>
+        <div><a href="grid.html" class="button city-btn" >Make Your City</a></div>
+      </form>
+    </div>
+  </body>
+
+  <script src='/ImageData.js'></script>
+
+</html>

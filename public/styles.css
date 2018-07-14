@@ -1,0 +1,22 @@
+.body{
+  background-image: url('https://78.media.tumblr.com/6b7b89bf1a654f40e28655ac42d2adbc/tumblr_o32ehbjYi11t111k8_og_500.jpg');
+  background-repeat: repeat-x;
+  background-position:  50% -55%;
+
+  /* margin: 30px; */
+}
+
+.uploadForm{
+  border: solid black 1px;
+  border-radius: 5px;
+  background-color: white;
+   position: absolute;
+   top: 100px;
+   left: 100;
+   width: 180px;
+   height: 250px;
+ /* border: 3px solid #73AD21; */
+
+  /* padding: 50px; */
+
+}

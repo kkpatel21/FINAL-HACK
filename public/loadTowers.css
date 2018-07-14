@@ -1,0 +1,149 @@
+
+
+.page{
+  background-image: url('https://wallpapertag.com/wallpaper/full/9/2/7/88566-top-lego-background-2048x1152.jpg');
+  background-repeat: repeat;
+  background-position:  50% 50%;
+}
+
+.form {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nameInput {
+  width: 50%;
+  height: 30%;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  background-color: #d1d1d1
+
+}
+.uploadForm {
+  /* border: solid white 5px; */
+  border-radius: 0px;
+  background-color: white;
+  margin: auto;
+  margin-left: 30%;
+  position: fixed;
+  top: 35%;
+  left: 42.5%;
+  margin-top: -50px;
+  margin-left: -100px;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  opacity: .95;
+  background-color: white;
+  box-shadow: 10px 10px #404040;
+}
+
+.fileChoice {
+  background-color: #d1d1d1;
+  width: 100%;
+  padding: 10px;
+  padding-left: 50px;
+  height: 10%;
+  display: flex;
+  flex: 1;
+  margin: auto;
+  /* border: solid black 2px; */
+}
+
+.button {
+    background-color: #3399FF; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 14px 30px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    width: 60%;
+    height: 15%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration
+    : 0.4s;
+    cursor: pointer;
+}
+
+.city-btn {
+  background-color: #d1d1d1;
+  color: black;
+  /* border: 2px solid #3399FF */
+}
+
+.city-btn:hover {
+  background-color: #3399FF;
+  color: white;
+}
+
+.upload {
+	width: 3px;
+	height: 3px;
+	opacity: 1;
+}
+
+.upload + label {
+    width: 100px;
+    height:40px;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    line-height: 2.6em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ef494f;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px #a73337;
+    transition: 150ms;
+}
+
+.upload:focus + label,
+.upload + label:hover {
+    background-color: #ff6c71;
+    box-shadow: 0px 5px 0px #d03338;
+    cursor:pointer;
+}
+
+.upload:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+.canvas-header {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+
+.picture {
+  display: flex;
+  flex: 1;
+  margin: auto;
+}
+
+.canvas {
+  display: block;
+  flex: 1;
+  justify-content: center;
+  background-color: white;
+  opacity: 0.9;
+  width: 70%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  box-shadow: 10px 10px #404040;
+  margin: auto;
+  margin-top: 10%
+
+}
